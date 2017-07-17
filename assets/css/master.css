@@ -10189,7 +10189,7 @@ body {
   width: 193px;
   height: 194px;
   float: left;
-  background: url(../img/content/disk3.png) no-repeat center center;
+  background: url(../img/albums/disk.png) no-repeat center center;
   z-index: 9;
 }
 @media only screen and (max-width: 1025px) {
