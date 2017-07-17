@@ -16420,7 +16420,8 @@ ul.resp-tabs-list, p {
 
 .resp-tabs-container {
     padding: 0px;
-    background-color: #fff;
+    /*background-color: #fff;*/
+    background-color: inherit;
     clear: left;
 }
 
@@ -16436,12 +16437,12 @@ h2.resp-accordion {
 }
 
 .resp-tab-active {
-	border: 1px solid #5AB1D0 !important;
+	/*border: 1px solid #5AB1D0 !important;*/
 	border-bottom: none;
 	margin-bottom: -1px !important;
 	padding: 12px 14px 14px 14px !important;
-	border-top: 4px solid #5AB1D0 !important;
-	border-bottom: 0px #fff solid !important;
+	/*border-top: 4px solid #5AB1D0 !important;
+	border-bottom: 0px #fff solid !important;*/
 }
 
 .resp-tab-active {
@@ -16455,7 +16456,7 @@ h2.resp-accordion {
 
 .resp-tab-content {
     border: 1px solid #c1c1c1;
-	  border-top-color: #5AB1D0;
+	  /*border-top-color: #5AB1D0;*/
 }
 
 h2.resp-accordion {
@@ -16499,11 +16500,12 @@ position: relative;
 z-index: 1;
 margin-right: -1px !important;
 padding: 14px 15px 15px 14px !important;
-border-top: 1px solid;
-border: 1px solid #5AB1D0 !important;
-border-left: 4px solid #5AB1D0 !important;
+/*border-top: 1px solid;*/
+border-bottom: 1px solid;
+/*border: 1px solid #5AB1D0 !important;
+border-left: 4px solid #5AB1D0 !important;*/
 margin-bottom: 4px !important;
-border-right: 1px #FFF solid !important;
+/*border-right: 1px #FFF solid !important;*/
 }
 
 .resp-arrow {

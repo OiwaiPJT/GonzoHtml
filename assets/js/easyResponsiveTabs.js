@@ -1,5 +1,5 @@
 // Easy Responsive Tabs Plugin
-// Author: Samson.Onna <Email : samson3d@gmail.com> 
+// Author: Samson.Onna <Email : samson3d@gmail.com>
 (function ($) {
     $.fn.extend({
         easyResponsiveTabs: function (options) {
@@ -10,8 +10,8 @@
                 fit: true,
                 closed: false,
                 tabidentify: '',
-                activetab_bg: 'white',
-                inactive_bg: '#F5F5F5',
+                activetab_bg: 'inherit',
+                inactive_bg: 'inherit',
                 active_border_color: '#c1c1c1',
                 active_content_border_color: '#c1c1c1',
                 activate: function () {
@@ -213,7 +213,7 @@
 
                 });
 
-                //Window resize function                   
+                //Window resize function
                 $(window).resize(function () {
                     $respTabs.find('.resp-accordion-closed').removeAttr('style');
                 });
@@ -221,4 +221,3 @@
         }
     });
 })(jQuery);
-
