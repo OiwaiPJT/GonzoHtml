@@ -12463,7 +12463,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     visibility: hidden;
   }
   .topHeader {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgb(171, 171, 171);
     z-index: 22;
   }
   .breadTxt {
