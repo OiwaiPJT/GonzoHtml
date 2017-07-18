@@ -11337,6 +11337,10 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
 .col-sm-12 .profileContent {
   background-color: inherit;
+  background-color: rgba(50, 47, 45, 0.1);
+  min-height: 370px;
+  opacity: 1;
+  transition: opacity .2s ease-out;
 }
 
 .blogHomeSection .blogBoxContent h1,
@@ -11344,7 +11348,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .blogSidebarRight .blogBoxContent h1 {
   font-size: 2.2rem;
 }
-.blogHomeSection .blogBoxContent h1 a,
 .aquraFilter .blogBoxContent h1 a,
 .blogSidebarRight .blogBoxContent h1 a {
   text-decoration: none;
@@ -11360,6 +11363,22 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
 }
+
+
+.blogHomeSection .blogBoxContent h1 a{
+text-decoration: none;
+color: #fff;
+font-family: 'Montserrat', sans-serif;
+font-weight: 100;
+font-size: 28px;
+}
+
+span.sm_h1 {
+    font-size: 15px;
+}
+
+
+
 .blogHomeSection .blogBoxContent h1 a:hover,
 .aquraFilter .blogBoxContent h1 a:hover,
 .blogSidebarRight .blogBoxContent h1 a:hover {
@@ -11391,7 +11410,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .blogSidebarRight .blogBoxContent .admin-list ul li:last-child a {
   color: #bb9b69;
 }
-.blogHomeSection .blogBoxContent .blogParagraph p,
 .aquraFilter .blogBoxContent .blogParagraph p,
 .blogSidebarRight .blogBoxContent .blogParagraph p {
   font-family: 'Karla', sans-serif;
@@ -11400,6 +11418,15 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   font-weight: 400;
   color: #4e4e4e;
 }
+.blogHomeSection .blogBoxContent .blogParagraph p {
+  padding-top:10px;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #fff;
+}
+
 .blogHomeSection .blogBoxContent .rmButton,
 .aquraFilter .blogBoxContent .rmButton,
 .blogSidebarRight .blogBoxContent .rmButton {
@@ -11431,6 +11458,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .blogSidebarRight .blogBoxContent .rmButton:hover {
   background-color: #bb9b69;
 }
+
 /***********************************************************************************************/
 /* END BLOG HOME SECTION */
 /***********************************************************************************************/
