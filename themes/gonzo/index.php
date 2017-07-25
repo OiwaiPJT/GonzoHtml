@@ -238,7 +238,7 @@
 				</div>
 				<ul>
 					<li>
-						<a href="index.html">
+						<a href="/">
 							home
 						</a>
 					</li>
@@ -248,22 +248,22 @@
 						</a>
 					</li>
 					<li>
-						<a href="profile.html">
+						<a href="/profile/">
 							Profile
 						</a>
 						<ul class="sub-menu">
 							<li>
-								<a href="profile.html">
+								<a href="/profile/">
 									アーティストGONZO
 								</a>
 							</li>
 							<li>
-								<a href="profile.html#parentVerticalTab2">
+								<a href="/profile/#parentVerticalTab2">
 									プロデューサー野澤孝智
 								</a>
 							</li>
 							<li>
-								<a href="profile.html#parentVerticalTab3">
+								<a href="/profile/#parentVerticalTab3">
 									婚活大使
 								</a>
 							</li>
@@ -280,32 +280,32 @@
 						</a>
 					</li>
 					<li>
-						<a href="video.html">
+						<a href="/video/">
 							Music Video
 						</a>
 					</li>
 					<li>
-						<a href="contact.html">
+						<a href="/contact/">
 							contact
 						</a>
 					</li>
 					<li>
-						<a href="terms_of_use.html">
+						<a href="/terms_of_use/">
 							Terms of use
 						</a>
 						<ul class="sub-menu">
 							<li>
-								<a href="terms_of_use.html">
+								<a href="/terms_of_use/">
 									特定商取引法に基づく表記
 								</a>
 							</li>
 							<li>
-								<a href="terms_of_use.html#parentVerticalTab2">
+								<a href="/terms_of_use/#parentVerticalTab2">
 									利用規約
 								</a>
 							</li>
 							<li>
-								<a href="terms_of_use.html#parentVerticalTab3">
+								<a href="/terms_of_use/#parentVerticalTab3">
 									プライバシーポリシー
 								</a>
 							</li>
@@ -321,7 +321,7 @@
 		</div><!-- end menu-fixed-container -->
 		<!-- =============== STAR LOGO ================ -->
 		<div class="logo-container-top">
-			<a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/whiteLogo.png" alt="Aqura"></a>
+			<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/whiteLogo.png" alt="Aqura"></a>
 		</div><!-- end logo-container-top -->
 		<!-- =============== END LOGO ================ -->
 	</div><!-- end topHeader -->
@@ -396,7 +396,7 @@
 						</div>
 
 						<div class="rmButton text-right">
-							<a href="profile.html">プロフィール詳細</a>
+							<a href="/profile/">プロフィール詳細</a>
 						</div>
 					</div>
 					<!-- end blogBoxContent -->
@@ -560,7 +560,7 @@
 			<div class="row">
 				<div class="sectionTitle">
 					<span class="heading-t3"></span>
-					<h2><a href="video.html">Music Video</a></h2>
+					<h2><a href="/video/">Music Video</a></h2>
 					<span class="heading-b3"></span>
 					<p>Check out my latest videos and follow me on <a href="#">Youtube</a> to view more.</p>
 				</div><!-- end sectionTtile -->

@@ -65,13 +65,13 @@
 			<ul>
 				<!-- Menu Fixed Item -->
 				<li>
-					<a href="index.html">
+					<a href="/">
 						home
 					</a>
 					<ul class="sub-menu">
 						<!-- Menu Fixed Sub Menu Item -->
 						<li>
-							<a href="index.html">
+							<a href="/">
 								home star
 							</a>
 						</li>
@@ -193,7 +193,7 @@
 				</li>
 				<!-- Menu Fixed Item -->
 				<li>
-					<a href="contact.html">
+					<a href="/contact/">
 						contact
 					</a>
 				</li>
@@ -213,7 +213,7 @@
 	</div><!-- end menu-fixed-container -->
 	<!-- =============== STAR LOGO ================ -->
 	<div class="logo-container-top">
-		<a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/whiteLogo.png" alt="Aqura"></a>
+		<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/whiteLogo.png" alt="Aqura"></a>
 	</div><!-- end logo-container-top -->
 	<!-- =============== END LOGO ================ -->
 </div><!-- end topHeader -->
