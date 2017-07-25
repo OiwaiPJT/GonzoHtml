@@ -11127,6 +11127,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .signature .imgSignuature {
   padding-left: 7rem;
 }
+
 /***********************************************************************************************/
 /* END BIO */
 /***********************************************************************************************/
@@ -12783,19 +12784,22 @@ span.sm_h1 {
   visibility: visible;
 }
 .open-menu {
-  margin-left: 1.8rem;
   float: right;
   width: 36px;
   display: block;
   padding: 0 8px;
   cursor: pointer;
   z-index: 6;
-  top: 11px;
+  top: 5px;
   position: relative;
+  color:#fff;
+}
+a.open-menu:hover, a.open-menu:focus {
+    color: #bb9b69;
+    text-decoration: none;
 }
 .open-menu span {
   display: block;
-  background: #fff;
   height: 2px;
   width: 17px;
   margin-bottom: 3px;
@@ -12803,6 +12807,7 @@ span.sm_h1 {
   -ms-transform-origin: 0% 0%;
   -webkit-transform-origin: 0% 0%;
   position: relative;
+  font-weight: bold;
 }
 .open-menu span:last-child {
   margin-bottom: 0;

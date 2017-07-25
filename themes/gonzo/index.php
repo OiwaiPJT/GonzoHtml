@@ -221,9 +221,7 @@
 				<!-- Open Menu Button -->
 				<a class="open-menu">
 					<!-- Buttons Bars -->
-					<span class="span-1"></span>
-					<span class="span-2"></span>
-					<span class="span-3"></span>
+					<span>MENU</span>
 				</a>
 			</div><!-- end rightTopHeader -->
 		</div><!-- end header -->
@@ -270,7 +268,7 @@
 						</ul>
 					</li>
 					<li>
-						<a href="events.html">
+						<a href="/events/">
 							events
 						</a>
 					</li>
@@ -500,7 +498,7 @@
 					<div class="col-sm-12">
 						<div class="sectionTitle paddingBottom">
 							<span class="heading-t3"></span>
-							<h2><a href="events.html">Event Information</a></h2>
+							<h2><a href="/events/">Event Information</a></h2>
 							<span class="heading-b3"></span>
 						</div><!-- end sectionTtile -->
 						<table>
