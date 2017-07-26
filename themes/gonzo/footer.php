@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="copyFooter">
-            <a href="#">&copy; GONZO 2017</a>
+            <a href="/profile/">&copy; GONZO 2017</a>
           </div>
         </div>
         <div class="col-sm-4">

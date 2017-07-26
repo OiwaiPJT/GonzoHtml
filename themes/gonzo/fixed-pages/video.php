@@ -87,7 +87,7 @@
 						</li>
 						<!-- Menu Fixed Sub Menu Item -->
 						<li>
-							<a href="index-video.html">
+							<a href="/video/">
 								home video
 							</a>
 						</li>
@@ -120,7 +120,7 @@
 				</li>
 				<!-- Menu Fixed Item -->
 				<li>
-					<a href="events.html">
+					<a href="/events/">
 						events
 					</a>
 				</li>

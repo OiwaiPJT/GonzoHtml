@@ -86,7 +86,7 @@
 						</li>
 						<!-- Menu Fixed Sub Menu Item -->
 						<li>
-							<a href="index-video.html">
+							<a href="/video/">
 								home video
 							</a>
 						</li>
@@ -119,7 +119,7 @@
 				</li>
 				<!-- Menu Fixed Item -->
 				<li>
-					<a href="events.html">
+					<a href="/events/">
 						events
 					</a>
 				</li>
@@ -402,7 +402,7 @@
 </div>
 <!-- =============== END PLAYLIST ================ -->
 	<!-- =============== START BIOGRAPHY SECTION ================ -->
-	<section style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/img/subHeader/header.png);" class="biography padding background-properties" id="content">
+	<section style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/img/profile/bg_profile.jpg);" class="biography padding background-properties" id="content">
 		<div class="container">
 			<div class="sectionTitle paddingBottom">
 				<span class="heading-t3"></span>
@@ -413,56 +413,123 @@
 				<div id="parentVerticalTab">
 				<div class="col-sm-3">
 	            <ul class="resp-tabs-list hor_1">
-	                <li>Vertical 1 ></li>
-	                <li>Vertical 2 ></li>
-	                <li>Vertical 3 ></li>
+	                <li>アーティストGONZO ></li>
+	                <li>プロデューサー 野澤孝智 ></li>
+	                <li>富山県南砺市 婚活大使 ></li>
 	            </ul>
 				</div>
 				<div class="col-sm-9">
 					<div class="resp-tabs-container hor_1">
 							<div>
-								<p>I currently work as freelance and in the last years I focused on personal projects and creations in order to build,
-								my own wide portfolio that could distinguish me both in style, technique and creativity.
-								In my first works i focused on a graphic style based on construction and deconstruction of the human body
-								using various tools and graphic effects that render it almost a sketch.
-								In my recent works I tried to merge the human body with nature or rather with the four elements of fire,
-								air, water and earth, and even with a fifth esoteric element: the Aristotelian ether, that includes all the others,
-								the essence of celestial bodies, eternal and unchangeable in comparison with the earth as a place of change.
-								The result is the vision of my imaginative world hanging between reality and fantasy, dream and utopia
-								and in which color and sensitivity have the predominant role.</p>
+								<p>
+									<h4>アーティスト GONZO</h4><br>
+									1960年、東京都出身<br>
+									プロデューサー、アレンジャー、作曲家<br>
+									武蔵野音楽大学 声楽科卒業後、ビクターエンタテインメント株式会社入社。<br>
+									プロデューサーとしてデビュー作から10年、SMAPを担当したほか、川原亜矢子、小日向しえ などをはじめ、<br>
+									多数のアーティストを手掛ける。2007年、独立しoffice727を設立。<br>
+									関ジャニ∞をプロデュースするほか、高知県出身の女性デュオ「スーパーバンド」などのサウンドプロデュースも手がける。<br>
+									また、CMや映画音楽なども制作プロデュース。<br>
 									<br>
-									<br>
-									<p>Tab 1 Container</p>
+									2016年よりGONZOでアーティスト活動を展開。<br>
+									17年10月に「The Barcony Cruise」を発売予定。<br>
+									都内を中心にLive活動中。
+								</p>
 							</div>
 							<div>
-								<p>Photoshop is the software I prefer to conceive my works, in which I also include the digital version of hand-made elements,
-								such as scratches and ink marks, acrylic or watercolor stains. The outcome is technically always appealing and intriguing.
-								Music is the key of this creative process. I could mention Sigur Rós, Radiohead, Bloc Party, Coldplay, Bjork etc.
-								I’m also fond of movies, I love every kind cinema, especially indie movies and art movies.</p>
-									<br>
-									<br>
-									<p>Tab 2 Container</p>
+								<p>
+									<h4>プロデューサー 野澤孝智</h4><br>
+									1960年、東京都出身<br>
+									プロデューサー、アレンジャー、作曲家<br>
+									武蔵野音楽大学 声楽科卒業後、ビクターエンタテインメント株式会社入社。<br>
+									プロデューサーとしてデビュー作から10年、SMAPを担当したほか、川原亜矢子、小日向しえ などをはじめ、<br>
+									多数のアーティストを手掛ける。2007年、独立しoffice727を設立。<br>
+									関ジャニ∞をプロデュースするほか、高知県出身の女性デュオ「スーパーバンド」などのサウンドプロデュースも手がける。<br>
+									また、CMや映画音楽なども制作プロデュース。<br>
+									2000年公開された織田裕二主演のヒット作、「ホワイトアウト」や、2002年、竹内結子、吉沢悠らが主演を務めた作品、「星に願いを。」では、<br>
+									サントラに世界的ハーモニカ奏者のウィリアム・ギャルソンなどを起用し、サントラとしては異例の売り上げを記録した。<br>
+									J-POP全般を得意とし、ノンジャンルで対応可能。<br>
+									アーティストの歌声の良さを最大限に引き出すそのボーカルディレクションには定評がある。<br>
+									面倒なプロデュース大歓迎！<br><br>
+
+									プロデュース作品<br>
+									<table class="producer-works">
+										<tbody>
+											<tr>
+												<th>スーパーバンド</th>
+												<td>シングル「赤い橋」（2005）「笑顔のゆくえ」（2006）「思いッキリ!!」（2007）<br>
+												 アルバム「元気だしていこうぜ!!」（2006）「負けるな」（2006）「バルーザルーザ」（2007）</td>
+											</tr>
+											<tr>
+											<th>関ジャニ∞</th>
+											<td>シングル「大阪レイニーブルース」「好きやねん、大阪」（2005）「∞SAKAおばちゃんROCK」「関風ファイティング」（2006）「ズッコケ男道」「イッツ・マイ・ソウル」（2007）<br>
+															アルバム「感謝＝∞」（2004）「F・T・O」（2006）「ズッコケ大脱走」(2007)</td>
+											</tr>
+											<tr>
+											<th>戸田恵子</th>
+											<td>アルバム「ACTRESS」（2007）収録曲「女友達」「恋のおまもりください」編曲<br>
+															アルバム「Twice」（2005）</td>
+											</tr>
+											<tr>
+											<th>NOZOMU</th>
+											<td>シングル「STAY～僕の憂鬱～」（2005）</td>
+											</tr>
+											<tr>
+											<th>川原亜矢子</th>
+											<td>アルバム「グレイの風の街」（2004）</td>
+											</tr>
+											<tr>
+											<th>小日向しえ</th>
+											<td>シングル「プラム」「カナシイウタ」「花摘み」「傷跡」「ピストル」「星のタトゥー」「夏の残骸」<br>
+															アルバム「恋愛マシーン～Play Me」（1997）</td>
+											</tr>
+											<tr>
+											<th>SMAP</th>
+											<td>シングル「Can’t Stop!!-LOVING-」「笑顔のゲンキ」「君色思い」「＄10」「がんばりましょう」「Hey Hey おおきに毎度あり」「たぶんオーライ」「KANSHAして」「しようよ」「SHAKE」「どんないいこと」「青いイナズマ」「セロリ」「Peace！」「夜空ノムコウ」など<br>
+															アルバム「SMAP 001」から「SMAP 012 VIVA AMIGOS!」</td>
+											</tr>
+											<tr>
+											<th>SMAPPIES</th>
+											<td>アルバム「SMAPPIES Rhythm sticks」（1996）ADLIB BEST RECORD OF THE YEAR 1996受賞<br>
+															アルバム「SMAPPIES II」（1999）POPULAR DISC AWARDS 1999受賞</td>
+											</tr>
+
+											<tr><th>JOHN HOON</th>
+											<td> シングル 「BlueMoon」</td>
+											</tr>
+										</tbody>
+									</table>
+								</p>
 							</div>
 							<div>
-								<p>Emi Haze graduated from the Institute
-								of Design in Verona with
-								a degree in Graphic Design
-								and Advertising Design.I live in the north-east of Italy and my huge passion is digital art.
-								Art and painting connected to technology have always been my strongest passions. People think I am calm, quiet, sometimes introvert, really creative, inspired and perfectionist.
-								In my opinion everything in every moment has an artistic side, the aesthetics of things, people around me...
-								for me everything has its own importance, images, textures, sounds, fragrances, my creativity is costantly stimulated.</p>
-									<br>
-									<br>
-									<p>Tab 3 Container</p>
+								<div class="row">
+									<div class="col-sm-9">
+										<h4>富山県南砺市 婚活大使</h4><br>
+								    <p>	2017年5月21日に富山県南砺市の婚活大使に任命されました。<br>
+											2016年秋、とあるご縁で富山県南砺市主催の婚活セミナーに講師としてお招き頂きました。<br>
+											手探りの中南砺市の男性諸氏に私なりのアドバイスを聞いて頂いた所、なんと10組のカップルが成立いたしました。<br>
+											一言で婚活と言ってもアドバイスは非常に難しく、一人一人が持つ環境は千差万別です。<br>
+											そこで私は「野澤孝智の男塾」と言うテーマでセミナーを展開しています。<br>
+											自分自身の男を磨く事が結果素敵な伴侶を見つけられると言う内容の講義です。<br>
+											「かっこいい！って何？」かっこ悪い事をしない事。<br>
+											「かっこ悪い事って何？」「かっこ付けるのが一番かっこ悪い事！」<br>
+											私の講義はここから始まります。<br>
+											富山県南砺市は全国に先駆けて田中幹男市長の元「南砺市で暮らしません課」というユニークな課が設立され、市職員の方が数名常駐されています。<br>
+											市役所の中では男性が訪ねにくいであろうと言う配慮で、近隣のショッピングモールの中に開設され、受付時間もモールに合わせて20時までと、とても行政とは思えぬ柔軟な対応がなされています。<br>
+											そしてとても職員だけでは手が足りないきめ細かい対応のために、<br>
+											山田由理枝さんを筆頭に市民の方々が「おせっかいさん」という名の下にボランティアがフォローするという、何とも万全な体制が組まれています。<br>
+											全国の行政が「婚活課」を設置して双方で情報共有できたらどんなにすばらしい事でしょう。<br>
+											<br>そうなる事を夢みて婚活大使は今日も行く。
+										</p>
+									</div>
+									<div class="col-sm-3">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/profile/prof_tab_3.jpg" alt="">
+									</div>
+								</div>
 							</div>
-					</div>
-					<div class="signature">
-						<a href="http://www.emihaze.com/showcase">Emili Haze:</a>
-						<div class="imgSignuature">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/content/signature.png" alt="">
 						</div>
 					</div>
-				</div>
+
 			</div>
 			</div>
 		</div><!-- end container -->
