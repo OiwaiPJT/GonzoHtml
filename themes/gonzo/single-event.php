@@ -523,18 +523,6 @@
 	</div>
 	<!-- =============== END EVENT SINGLE ================ -->
 
-	<!-- =============== START MAP ================ -->
-	<section class="googleMap">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-12">
-					<div id="map-canvas" class="google-map" data-lat="40.7841484" data-long="-73.9661407" data-img="<?php echo get_template_directory_uri(); ?>/assets/img/contact/marker.png"></div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- =============== END MAP ================ -->
-
 	<!-- =============== START PAGINATION ================ -->
 	<section class="paginationFooter ">
 		<div class="container">
@@ -556,5 +544,4 @@
 	</section>
 	<!-- =============== END PAGINATION ================ -->
 <?php get_footer(); ?>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/map.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/counter.js"></script>
