@@ -17,7 +17,7 @@
 						<li class="col-sm-offset-4 col-sm-4 col-xs-12">
 							<div class="album-icon albumIcon3">
 								<span class="thumbs-album">
-									<a href="shopSingle.html">
+									<a href="/shop/">
 										<img width="270" height="270" src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/albumCover.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1">
 									</a>
 									</span>
@@ -82,7 +82,7 @@
 	<!-- =============== END HOME-NLOG SECTION ================ -->
 
 	<!-- =============== START HOME-BLOG SECTION ================ -->
-	<section class="padding hide-section blogHomeSection">
+	<section class="padding hide-section blogHomeSection" style="background-image: url(assets/img/blog/homeBlog.png);">
 		<div class="container">
 			<div class="row">
 				<div class="sectionTitle paddingBottom">
@@ -124,7 +124,7 @@
 	<!-- =============== END HOME-NLOG SECTION ================ -->
 
 	<!-- =============== START EVENTS SECTION-1 ================ -->
-	<section style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/blog/discography_test1.png);" class="background-properties hide-section paddingHomeEvents">
+	<section style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/index/bg_events.jpg);" class="background-properties hide-section paddingHomeEvents">
 		<div class="tableEvents">
 			<div class="container">
 				<div class="row">
@@ -137,9 +137,9 @@
 						<table>
 							<tr class="tableEventsTitle">
 								<th class="date">日程</th>
-								<th class="venue">イベント名</th>
+								<th class="title">イベント名</th>
 								<th class="location">会場</th>
-								<th class="tickets">料金</th>
+								<th class="price">料金</th>
 								<th></th>
 							</tr>
 
@@ -155,11 +155,11 @@
 							?>
 
 							<tr>
-								<td class="aqura-date"><a href="<?php the_permalink(); ?>"><i class="fa fa-plus"></i></a><a href="/"><?php the_date("n月j日（l）"); ?></a></td>
-								<td class="aqura-location"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
-								<td class="aqura-city"><a href="<?php the_permalink(); ?>"></a></td>
-								<td class="aqura-tickets"><a href="<?php the_permalink(); ?>">Tickets</a></td>
-								<td class="aqura-vip"><a href="">詳細</a></td>
+								<td class="date"><a href="<?php the_permalink(); ?>"><i class="fa fa-plus"></i></a><a href="/"><?php the_date("n月j日（l）"); ?> <?php echo get_post_meta($post->ID, "開始時間", true); ?>から</a></td>
+								<td class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
+								<td class="location"><a href="<?php the_permalink(); ?>"></a><?php echo get_post_meta($post->ID, "会場", true); ?></td>
+								<td class="price"><a href="<?php the_permalink(); ?>">￥ <?php echo get_post_meta($post->ID, "料金", true); ?></a></td>
+								<td class="aqura-vip"><a href="<?php the_permalink(); ?>">詳細</a></td>
 							</tr>
 
 						<?php endforeach; ?>
@@ -189,17 +189,32 @@
 					<span class="heading-b3"></span>
 					<p>Check out my latest videos and follow me on <a href="#">Youtube</a> to view more.</p>
 				</div><!-- end sectionTtile -->
-				<div class="col-sm-4">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/YqeW9_5kURI"  allowfullscreen></iframe>
-				</div><!-- end col-sm-4 -->
-				<div class="col-sm-4">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/YqeW9_5kURI"  allowfullscreen></iframe>
-				</div><!-- end col-sm-4 -->
-				<div class="col-sm-4">
+				<div class="col-sm-offset-4 col-sm-4 col-xs-12">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/YqeW9_5kURI"  allowfullscreen></iframe>
 				</div><!-- end col-sm-4 -->
 			</div>
 		</div>
 	</section>
 	<!-- =============== END VIDEO SECTION ================ -->
+
+	<!-- =============== START TWITTER SECTION ================ -->
+	<section class="padding hide-section background-properties" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/twitter/bg_twitter.jpg);">
+		<div class="twitter">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="twitterLogo">
+							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/twitter/logo.png" alt="twitterLogo"></a>
+							<a href="#" class="linkTwitter">@nozawatakatomo</a>
+						</div>
+						<p>GONZO - Singer(GONZO).MusicProducer.Composer.Arranger.<br>
+							プロデュース作品 SMAP、Smappies、小日向しえ、関ジャニ∞、SeeStarsCrew、映画「ホワイトアウト」「星に願いを」他多数。<br>
+							 - <a href="https://twitter.com/nozawatakatomo">https://twitter.com/nozawatakatomo</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =============== END TWITTER SECTION ================ -->
+
   <?php get_footer(); ?>

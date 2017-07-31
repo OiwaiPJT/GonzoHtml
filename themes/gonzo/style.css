@@ -3203,6 +3203,13 @@ select[multiple].input-lg {
   -ms-user-select: none;
   user-select: none;
 }
+.btn-buy {
+  color:#fff;
+  border: 2px solid #fff !important;
+}
+.btn-buy:hover {
+  background: #694a14 !important;
+}
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -11344,7 +11351,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .aquraFilter .blogBoxContent,
 .blogSidebarRight .blogBoxContent {
   padding: 3.5rem 3rem;
-  background-color: #f4f4f4;
+  background-color: #d6d6d6;
 }
 
 .col-sm-12 .profileContent {
@@ -11382,7 +11389,7 @@ text-decoration: none;
 color: #fff;
 font-family: 'Montserrat', sans-serif;
 font-weight: 100;
-font-size: 28px;
+font-size: 22px;
 }
 
 span.sm_h1 {
@@ -12299,7 +12306,7 @@ span.sm_h1 {
 }
 .starTitle h1 {
   font-weight: 300;
-  font-size: 8.8rem;
+  font-size: 6.5rem;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   padding: 3rem 0;
   letter-spacing: 2rem;

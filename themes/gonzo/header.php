@@ -7,6 +7,17 @@
   <title><?php wp_title( '|', true, 'right' ); bloginfo('name'); ?></title>
   <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/content/icon.png">
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen">
+	<!-- google analytics -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-103579616-1', 'auto');
+  ga('send', 'pageview');
+	</script>
+	<!-- google analytics end -->
   <?php if ( is_singular() ) wp_enqueue_script( "comment-reply" );
   wp_head(); ?>
 </head>
@@ -22,7 +33,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="breadcrumb-fullscreen-parent phone-menu-bg">
-					<div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/header/header_test8.jpeg');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+					<div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/header/header_test.jpg');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
 						<div id="home" style="position: absolute;left: 0;top: 0;">
 							<div class="intro-header">
 								<div class="js-height-full star" style="height: 955px;">
@@ -52,7 +63,7 @@
 			<i class="fa fa-plus"></i>
 			<i class="fa fa-minus"></i>
 		</a>
-		<div id="mesh-main-player" class="jp-jplayer" data-audio-src="<?php echo get_template_directory_uri(); ?>/assets/audio/flute.mp3" data-title="See right through ft. Fiora" data-artist="Tensnake"></div>
+		<div id="mesh-main-player" class="jp-jplayer" data-audio-src="<?php echo get_template_directory_uri(); ?>/assets/audio/1.mp3" data-title="Sabor A mi" data-artist="Gonzo"></div>
 
 		<div id="mesh-main-player-content" class="mesh-main-player" role="application" aria-label="media player">
 			<div class="container">
@@ -88,7 +99,7 @@
 					</div>
 					<div class="right-player-side">
 						<div class="mesh-thumbnail">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/player/thumbnail.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/albumCover.png" alt="">
 						</div>
 						<div class="mesh-title">
 						</div>
@@ -109,13 +120,10 @@
 				<span class="about-length">LENGTH</span>
 				<span class="about-available">AVAILABLE ON</span>
 			</div>
-			<div class="trak-item" data-audio="<?php echo get_template_directory_uri(); ?>/assets/audio/flute.mp3" data-artist="Tensnake" data-thumbnail="<?php echo get_template_directory_uri(); ?>/assets/img/player/thumbnail.png" data-id="trak-200">
-				<audio preload="metadata" src="<?php echo get_template_directory_uri(); ?>/assets/audio/flute.mp3" title="See right through ft. Fiora"></audio>
+			<div class="trak-item" data-audio="<?php echo get_template_directory_uri(); ?>/assets/audio/1.mp3" data-artist="GONZO" data-thumbnail="<?php echo get_template_directory_uri(); ?>/assets/img/albums/albumCover.png" data-id="trak-200">
+				<audio preload="metadata" src="<?php echo get_template_directory_uri(); ?>/assets/audio/1.mp3" title="Sabor A mi"></audio>
 				<div class="additional-button">
 					<div class="center-y-table">
-						<a href="#">
-							<i class="fa fa-apple"></i>
-						</a>
 						<a href="#">
 							<i class="fa fa-soundcloud"></i>
 						</a>
@@ -129,7 +137,7 @@
 				<div class="name-artist">
 					<div class="center-y-table">
 						<h2>
-							Tensnake - See Right Through Ft. Fiora
+							Sabor A mi
 						</h2>
 					</div>
 				</div>
@@ -137,13 +145,10 @@
 					00:00
 				</time>
 			</div>
-			<div class="trak-item" data-audio="<?php echo get_template_directory_uri(); ?>/assets/audio/2.mp3" data-artist="Jack U ft. Kiesza" data-thumbnail="<?php echo get_template_directory_uri(); ?>/assets/img/player/thumbnail.png" data-id="trak-201">
-				<audio preload="metadata" src="<?php echo get_template_directory_uri(); ?>/assets/audio/2.mp3" title="Take You There"></audio>
+			<div class="trak-item" data-audio="<?php echo get_template_directory_uri(); ?>/assets/audio/2.mp3" data-artist="GONZO" data-thumbnail="<?php echo get_template_directory_uri(); ?>/assets/img/albums/albumCover.png" data-id="trak-201">
+				<audio preload="metadata" src="<?php echo get_template_directory_uri(); ?>/assets/audio/2.mp3" title="La Paloma"></audio>
 				<div class="additional-button">
 					<div class="center-y-table">
-						<a href="#">
-							<i class="fa fa-apple"></i>
-						</a>
 						<a href="#">
 							<i class="fa fa-soundcloud"></i>
 						</a>
@@ -157,7 +162,7 @@
 				<div class="name-artist">
 					<div class="center-y-table">
 						<h2>
-							Jack U ft. Kiesza - Take You There
+							La Paloma
 						</h2>
 					</div>
 				</div>
@@ -165,13 +170,10 @@
 					00:00
 				</time>
 			</div>
-			<div class="trak-item" data-audio="<?php echo get_template_directory_uri(); ?>/assets/audio/3.mp3" data-artist="Bob Sinclair" data-thumbnail="<?php echo get_template_directory_uri(); ?>/assets/img/player/thumbnail.png" data-id="trak-201">
-				<audio preload="metadata" src="<?php echo get_template_directory_uri(); ?>/assets/audio/3.mp3" title="Cinderella"></audio>
+			<div class="trak-item" data-audio="<?php echo get_template_directory_uri(); ?>/assets/audio/3.mp3" data-artist="Cinema" data-thumbnail="<?php echo get_template_directory_uri(); ?>/assets/img/albums/albumCover.png" data-id="trak-201">
+				<audio preload="metadata" src="<?php echo get_template_directory_uri(); ?>/assets/audio/3.mp3" title="GONZO"></audio>
 				<div class="additional-button">
 					<div class="center-y-table">
-						<a href="#">
-							<i class="fa fa-apple"></i>
-						</a>
 						<a href="#">
 							<i class="fa fa-soundcloud"></i>
 						</a>
@@ -185,7 +187,7 @@
 				<div class="name-artist">
 					<div class="center-y-table">
 						<h2>
-							Bob Sinclair - Cinderella
+							Cinema
 						</h2>
 					</div>
 				</div>
@@ -193,13 +195,10 @@
 					00:00
 				</time>
 			</div>
-			<div class="trak-item" data-audio="<?php echo get_template_directory_uri(); ?>/assets/audio/4.mp3" data-artist="Yuna" data-thumbnail="<?php echo get_template_directory_uri(); ?>/assets/img/player/thumbnail.png" data-id="trak-201">
-				<audio preload="metadata" src="<?php echo get_template_directory_uri(); ?>/assets/audio/4.mp3" title="Lullabies"></audio>
+			<div class="trak-item" data-audio="<?php echo get_template_directory_uri(); ?>/assets/audio/4.mp3" data-artist="GONZO" data-thumbnail="<?php echo get_template_directory_uri(); ?>/assets/img/albums/albumCover.png" data-id="trak-201">
+				<audio preload="metadata" src="<?php echo get_template_directory_uri(); ?>/assets/audio/4.mp3" title="Sou Voce"></audio>
 				<div class="additional-button">
 					<div class="center-y-table">
-						<a href="#">
-							<i class="fa fa-apple"></i>
-						</a>
 						<a href="#">
 							<i class="fa fa-soundcloud"></i>
 						</a>
@@ -213,7 +212,7 @@
 				<div class="name-artist">
 					<div class="center-y-table">
 						<h2>
-							Yuna - Lullabies
+							Sou Voce
 						</h2>
 					</div>
 				</div>
@@ -232,7 +231,7 @@
 				<div class="cartContainer">
 					<div class="myCart">
 						<ul>
-							<li class="cartTitle"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/shop/cart.png" alt=""></a></li>
+							<li class="cartTitle"><a href="/shop/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/shop/cart.png" alt=""></a></li>
 						</ul>
 					</div><!-- end myCart -->
 				</div><!--end cartContainer  -->
@@ -259,7 +258,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="shopSingle.html">
+						<a href="/shop/">
 							Now On Sale
 						</a>
 					</li>
@@ -295,11 +294,11 @@
 							blog&News
 						</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="/video/">
 							Music Video
 						</a>
-					</li>
+					</li> -->
 					<li>
 						<a href="/contact/">
 							contact
@@ -337,7 +336,7 @@
 		</div><!-- end menu-fixed-container -->
 		<!-- =============== STAR LOGO ================ -->
 		<div class="logo-container-top">
-			<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/whiteLogo.png" alt="Aqura"></a>
+			<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/whiteLogo.png"  ></a>
 		</div><!-- end logo-container-top -->
 		<!-- =============== END LOGO ================ -->
 	</div><!-- end topHeader -->

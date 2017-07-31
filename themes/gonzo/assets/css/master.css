@@ -9911,14 +9911,13 @@ body {
   width: 100%;
   position: fixed;
   z-index: 100000;
-  background-color: #ffffff;
+  background-color: #000;
 }
 .page-loader .loader-img {
-  width: 100px;
+  width: 100%;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  height: 100px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -o-filter: grayscale(100%);
@@ -9972,7 +9971,8 @@ body {
 /***********************************************************************************************/
 /* START BACKGROUND PROPERTIES */
 /***********************************************************************************************/
-.background-properties {
+.background-properties {¥
+  background-color: #fff;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10266,7 +10266,7 @@ body {
   text-transform: uppercase;
   color: #525252;
   font-size: 1.3rem;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   border-top: 1px solid rgba(206, 206, 206, 0.3);
   border-bottom: 1px solid rgba(206, 206, 206, 0.3);
 }
@@ -11370,7 +11370,7 @@ text-decoration: none;
 color: #fff;
 font-family: 'Montserrat', sans-serif;
 font-weight: 100;
-font-size: 28px;
+font-size: 18px;
 }
 
 span.sm_h1 {
