@@ -1,2 +1,2 @@
-# GonzoHtml
-GonzoさんのHPのhtml.css.jsファイル
+# wp-content_gonzo
+GonzoさんのHPのWoodPressファイル
