@@ -124,7 +124,7 @@
 	<!-- =============== END HOME-NLOG SECTION ================ -->
 
 	<!-- =============== START EVENTS SECTION-1 ================ -->
-	<section style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/index/bg_events.jpg);" class="background-properties hide-section paddingHomeEvents">
+	<section style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/index/bg_events.pg);" class="background-properties hide-section paddingHomeEvents">
 		<div class="tableEvents">
 			<div class="container">
 				<div class="row">
@@ -187,10 +187,10 @@
 					<span class="heading-t3"></span>
 					<h2><a href="/video/">Music Video</a></h2>
 					<span class="heading-b3"></span>
-					<p>Check out my latest videos and follow me on <a href="#">Youtube</a> to view more.</p>
+					<p>Check out my latest videos and follow me on <a href="https://www.youtube.com/channel/UC5G31s4zeEdNNiSOdvpUtlA">Youtube</a> to view more.</p>
 				</div><!-- end sectionTtile -->
 				<div class="col-sm-offset-4 col-sm-4 col-xs-12">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/YqeW9_5kURI"  allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/9Buc2Rg3mxU"  allowfullscreen></iframe>
 				</div><!-- end col-sm-4 -->
 			</div>
 		</div>

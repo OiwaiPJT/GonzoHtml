@@ -6410,6 +6410,13 @@ button.close {
   height: 50px;
   overflow: scroll;
 }
+.overlay {
+	/*position: absolute;*/
+	width: 100%;
+	min-height: 100%;
+	background-image: url(assets/img/index/video_stripe_black.png);
+	top: 0;
+}
 @media (min-width: 800px) {
   .modal-dialog {
     width: 600px;

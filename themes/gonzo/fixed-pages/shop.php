@@ -347,4 +347,4 @@
 		</div>
 	</div> -->
 	<!-- =============== END PAGINATION ================ -->
-<?php get_footer(); ?>
+<?php get_footer(1); ?>
